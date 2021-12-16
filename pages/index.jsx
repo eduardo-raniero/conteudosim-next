@@ -59,6 +59,7 @@ export default function Home() {
   // OVERIDES THE DEFAULT THEME
   const theme = createTheme({
     palette: {
+      mode: 'dark',
       common: {
         white: '#f2f2f2'
       },

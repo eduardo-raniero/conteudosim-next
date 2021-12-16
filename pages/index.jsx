@@ -59,7 +59,6 @@ export default function Home() {
   // OVERIDES THE DEFAULT THEME
   const theme = createTheme({
     palette: {
-      mode: 'dark',
       common: {
         white: '#f2f2f2'
       },
@@ -85,7 +84,7 @@ export default function Home() {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar className={styles.appBar} position="static">
+        <AppBar className={styles.appBar} sx={{bgcolor: "#fff"}} position="static">
           <Toolbar sx={{ margin: "0 auto" , width: 7/10, alignItems:"center", justifyContent: "center", textAlign: "center" }} >
             <img src="/logo-cs.svg" alt="ConteúdoSim" />
           </Toolbar>

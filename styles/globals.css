@@ -22,5 +22,5 @@ small {
 }
 
 .appBar {
-  background-color: #fff;
+  background-color: #fff !important;
 }

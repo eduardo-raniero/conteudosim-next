@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 800px) {
   .appBar {
-    background-color: #fff;
+    background-color: #fff !important;
     max-height: 80px;
     padding: 0.618rem;
     text-align: center;
@@ -158,7 +158,7 @@
 
 @media screen and (min-width: 801px) {
   .appBar {
-    background-color: #fff;
+    background-color: #fff !important;
     max-height: 95px;
     padding: 1.6rem;
     text-align: center;

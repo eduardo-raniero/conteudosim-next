@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 // MATERIAL UI COMPONENTS
 import Button from '@mui/material/Button'
@@ -214,7 +214,6 @@ export default function Home() {
                 onChange={handleChange}
                 onBlur={handleChange}
                 color="secondary"
-                autoFocus={true}
                 fullWidth 
               />
               {errors.Nome && <small> {errors.Nome} </small>}

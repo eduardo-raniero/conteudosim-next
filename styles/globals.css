@@ -20,3 +20,7 @@ p,
 small {
   font-family: "Merriweather" !important;
 }
+
+.appBar {
+  background-color: #fff;
+}

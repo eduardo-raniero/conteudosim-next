@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import Head from 'next/head';
 
 // MATERIAL UI COMPONENTS
 import Button from '@mui/material/Button'
@@ -83,6 +84,7 @@ export default function Home() {
   })
 
   return (
+    <>
     <ThemeProvider theme={theme}>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar className={styles.appBar} sx={{bgcolor: "#fff"}} position="static">
@@ -287,5 +289,6 @@ export default function Home() {
       </Grid>
 
     </ThemeProvider>
+    </>
   )
 }

@@ -214,7 +214,6 @@ export default function Home() {
                 onChange={handleChange}
                 onBlur={handleChange}
                 color="secondary"
-                autoFocus={true}
                 fullWidth 
               />
               {errors.Nome && <small> {errors.Nome} </small>}

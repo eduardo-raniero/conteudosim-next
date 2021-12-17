@@ -204,7 +204,7 @@ export default function Home() {
         </Grid>
         
         <form onSubmit={handleSubmit} action="https://formsubmit.co/140f4f9d167962f8d3355bace87e6bdf" method="POST">
-        <input type="hidden" name="_next" value="https://conteudosim.com.br/obrigado" />
+        <input type="hidden" name="_next" value="https://www.conteudosim.com.br/obrigado" />
         <input type="hidden" name="_cc" value="silvacesarmucio@gmail.com" />
         <Grid container spacing={3} justifyContent="center" textAlign="center" alignItems="center">
             <Grid xl={4} lg={4} md={4} sm={7} xs={10} item>
